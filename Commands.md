@@ -2,24 +2,24 @@
 This document captures Linux commands I've learned so far, along with explanations and examples.
 
 📁 File & Directory Navigation
-ls
-Lists contents of the current directory
+ * ls
+    .Lists contents of the current directory
 
--R: Recursively lists nested directories
+    .-R: Recursively lists nested directories
 
-ls nonexistent 2> error.txt: Redirects error output to a file
+    .ls nonexistent 2> error.txt: Redirects error output to a file
 
-ls 'name' 2> /dev/null: Suppresses error messages
+    .ls 'name' 2> /dev/null: Suppresses error messages
 
-pwd
-Prints the current working directory
+ * pwd
+    Prints the current working directory
 
-cd 'directory'
-Changes directory
+ * cd 'directory'
+    - Changes directory
 
-cd ..: Move up one level
+    cd ..: Move up one level
 
-cd ~: Go to the home directory
+    cd ~: Go to the home directory
 
 cd "My Project": Use quotes for directories with spaces
 
